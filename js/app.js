@@ -14,7 +14,7 @@
 // Set to your domain: https://ff-topupp.shop
 // If you host the backend on a subdomain (e.g. https://api.ff-topupp.shop), update it here.
 // ============================================================
-const BACKEND_URL = 'https://api.ff-topupp.shop';
+const BACKEND_URL = 'https://ff-bgmi-test.onrender.com';
 
 function getApiUrl(path) {
     if (!path.startsWith('/')) path = '/' + path;
