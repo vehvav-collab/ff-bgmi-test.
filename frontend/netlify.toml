@@ -1,0 +1,23 @@
+[build]
+  command = ""
+  publish = "."
+
+[[redirects]]
+  from = "/store"
+  to = "/store.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.ff-topupp.shop/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/uploads/*"
+  to = "https://api.ff-topupp.shop/uploads/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

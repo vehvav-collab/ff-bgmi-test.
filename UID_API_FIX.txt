@@ -1,0 +1,14 @@
+UID API fix
+
+This build changes browser-side UID verification to:
+  api/verify.php?uid=YOUR_UID
+
+The PHP endpoint proxies the existing upstream API:
+  https://s.xysushi.in/ff/?uid=YOUR_UID
+
+Upload the contents of this ZIP to the same web root. If you also serve the same site under /Op, copy the full contents there as well so /Op/api/verify.php and /Op/js/app.js exist together.
+
+
+Backup API added:
+https://topup-store.in/ff-lookup-v3.php/api/ff-lookup.php?uid=YOUR_UID
+The PHP proxy tries the primary API first, then this backup automatically.

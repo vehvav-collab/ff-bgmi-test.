@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Instant & genuine BGMI UC (Unknown Cash), Royale Pass and Prime Plus. Verify your Character ID and top-up safely." />
+  <title>BGMITopUp — Official Battlegrounds Mobile India UC & Royale Pass</title>
+  <link rel="icon" type="image/png" href="g/icon.png" />
+  <link rel="apple-touch-icon" href="g/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Russo+One&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>try{if(localStorage.getItem('bgmi_theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}</script>
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <img src="assets/bgmi_logo.png" alt="BGMI" class="brand-logo-bgmi" />
+        <span class="brand-text">
+          <strong>Official UC Store</strong>
+          <small>Top Up Center</small>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#topup">Top-Up UC</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Banner carousel -->
+  <section class="carousel" id="home" aria-label="Promotions" aria-roledescription="carousel">
+    <div class="carousel-viewport">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="slide"><img src="posters/0.png" alt="BGMI Promotion 1" width="1920" height="725" loading="eager" /></div>
+        <div class="slide"><img src="posters/1.png" alt="BGMI Promotion 2" width="1920" height="725" /></div>
+        <div class="slide"><img src="posters/2.png" alt="BGMI Promotion 3" width="1920" height="725" /></div>
+      </div>
+    </div>
+    <button class="carousel-btn prev" id="carPrev" aria-label="Previous slide">‹</button>
+    <button class="carousel-btn next" id="carNext" aria-label="Next slide">›</button>
+    <div class="carousel-dots" id="carouselDots" role="tablist"></div>
+  </section>
+
+  <!-- Game banner -->
+  <section class="game-banner" id="game">
+    <div class="container">
+      <div class="game-card">
+        <img class="game-icon" src="g/icon.png" alt="Battlegrounds Mobile India" />
+        <div class="game-info">
+          <h2 class="game-title">Battlegrounds Mobile India</h2>
+          <span class="secure-pill">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M6 10V8a6 6 0 0 1 12 0v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <rect x="4" y="10" width="16" height="10" rx="2.5" fill="currentColor"/>
+            </svg>
+            100% Secure Payment · Instant UC Credit
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UID Top-Up flow -->
+  <section class="topup" id="topup">
+    <div class="container">
+      <div class="section-head">
+        <h2>Verify your <span class="grad">Character ID</span></h2>
+        <p>Enter your BGMI Character ID (UID). We'll verify your in-game nickname so your UC is delivered safely.</p>
+      </div>
+
+      <div class="uid-card">
+        <form class="uid-form" id="uidForm" novalidate>
+          <div class="field">
+            <label for="uidInput">In-game Character ID / UID</label>
+            <div class="input-wrap">
+              <span class="input-icon"><img src="assets/uc_logo.png" class="uc-img" alt="UC" /></span>
+              <input
+                type="text"
+                id="uidInput"
+                inputmode="numeric"
+                autocomplete="off"
+                placeholder="e.g. 5123456789"
+                maxlength="12"
+              />
+            </div>
+            <small class="hint" id="uidHint">Your Character ID is located on your in-game profile page.</small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" id="verifyBtn">
+            <span class="btn-label">Verify Character ID</span>
+            <span class="spinner" hidden></span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-head">
+        <h2>How it <span class="grad">works</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><h3>Enter ID</h3><p>Type your BGMI Character ID to verify your in-game nickname.</p></div>
+        <div class="step"><div class="step-num">2</div><h3>Pick UC Pack</h3><p>Choose your desired UC bundle, Royale Pass, or Prime Plus.</p></div>
+        <div class="step"><div class="step-num">3</div><h3>Pay securely</h3><p>Checkout instantly using PhonePe, Paytm, UPI, or QR scan.</p></div>
+        <div class="step"><div class="step-num">4</div><h3>Get UC instantly</h3><p>Unknown Cash is delivered to your BGMI mailbox in seconds.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-head"><h2>Frequently asked <span class="grad">questions</span></h2></div>
+      <div class="accordion" id="accordion">
+        <div class="acc-item"><button class="acc-q">Is this safe and genuine for BGMI? <span>+</span></button><div class="acc-a"><p>Yes. All UC is transferred directly to your public BGMI Character ID. No passwords, social logins, or sensitive account credentials are ever requested.</p></div></div>
+        <div class="acc-item"><button class="acc-q">How fast is UC delivery? <span>+</span></button><div class="acc-a"><p>Most UC purchases are credited to your in-game account within 1 to 5 minutes after payment confirmation.</p></div></div>
+        <div class="acc-item"><button class="acc-q">Where do I find my BGMI Character ID? <span>+</span></button><div class="acc-a"><p>Open BGMI, tap on your profile avatar in the top-left corner, and you will see your 9-10 digit Character ID near your nickname.</p></div></div>
+        <div class="acc-item"><button class="acc-q">Which payment methods are accepted? <span>+</span></button><div class="acc-a"><p>UPI apps including PhonePe, Paytm, Google Pay, BHIM, as well as universal dynamic UPI QR codes.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#home" class="brand brand-footer">
+          <img src="assets/bgmi_logo.png" alt="BGMI" class="brand-logo-bgmi" />
+          <span class="brand-text"><strong>Official UC Store</strong><small>Top Up Center</small></span>
+        </a>
+        <p class="muted">Genuine Battlegrounds Mobile India Unknown Cash (UC), delivered instantly to your Character ID.</p>
+      </div>
+      <div class="footer-cols">
+        <div><h4>Store</h4><a href="#topup">UC Packs</a><a href="#topup">Royale Pass</a><a href="#topup">Prime Plus</a></div>
+        <div><h4>Help</h4><a href="#faq">FAQ</a><a href="#how">How it works</a><a href="#topup">Verify ID</a></div>
+        <div><h4>Legal</h4><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Refunds</a></div>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> BGMITopUp. All rights reserved. Powered by KRAFTON Authorized Partners.</div>
+  </footer>
+
+  <!-- Verification / Congratulations Modal -->
+  <div class="modal-overlay" id="modalOverlay" hidden>
+    <div class="modal player-modal" id="playerModal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="confetti" id="confetti" aria-hidden="true"></div>
+      <div class="pm-hero">
+        <span class="pm-spark s1">✦</span><span class="pm-spark s2">✦</span><span class="pm-spark s3">✦</span>
+        <div class="pm-avatar"><img src="g/icon.png" alt="BGMI Player" /></div>
+      </div>
+      <div class="modal-body pm-body">
+        <span class="pm-verified">✓ Verified BGMI Account</span>
+        <h3 class="pm-name" id="pNick">—</h3>
+        <p class="modal-sub" id="pSub">🎉 Congratulations — your account is ready for UC top-up!</p>
+
+        <div class="pm-stats">
+          <div class="pm-stat"><strong id="pLevel">—</strong><small>Level</small></div>
+          <div class="pm-stat"><strong id="pRegion">India</strong><small>Server</small></div>
+          <div class="pm-stat"><strong id="pLikes">—</strong><small>Popularity</small></div>
+        </div>
+
+        <div class="pm-rows">
+          <div class="pm-row"><span>Character ID</span><strong id="pUid">—</strong></div>
+          <div class="pm-row" id="rowClan"><span>Clan</span><strong id="pClan">—</strong></div>
+        </div>
+
+        <button class="btn btn-primary btn-block pm-cta" id="proceedBtn">Proceed to UC Store →</button>
+        <button class="btn btn-text" id="notMeBtn">Not my account? Re-enter ID</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="js/data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@15.1.0/dist/twemoji.min.js" crossorigin="anonymous"></script>
+  <script src="js/app.js?v=bgmi-1"></script>
+</body>
+</html>

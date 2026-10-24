@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Battlegrounds Mobile India top-up store — Unknown Cash (UC), Royale Pass, Prime Plus subscriptions and more." />
+  <title>BGMI UC Store — Official Top Up Center</title>
+  <link rel="icon" type="image/png" href="g/icon.png" />
+  <link rel="apple-touch-icon" href="g/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Russo+One&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  
+  <!-- ============================================================
+       🔥 DISCOUNT CONFIGURATION - BGMI UC PACKS 🔥
+       ============================================================ -->
+  <script>
+  const PRODUCT_DISCOUNTS = {
+    'uc_60': 5,
+    'uc_300': 10,
+    'uc_600': 12,
+    'uc_1500': 15,
+    'uc_3000': 18,
+    'uc_6000': 20,
+    'rp_pass': 8,
+    'rp_elite': 10,
+    'prime_monthly': 7,
+    'prime_plus': 12
+  };
+  </script>
+  
+  <script>
+  try{if(localStorage.getItem('bgmi_theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}
+  </script>
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/bgmi_logo.png" alt="BGMI" class="brand-logo-bgmi" />
+        <span class="brand-text">
+          <strong>Official UC Store</strong>
+          <small>Top Up Center</small>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="index.html#how">How it works</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Verified account bar -->
+  <section class="store-hero">
+    <div class="container">
+      <div class="verified-bar">
+        <div class="vb-left">
+          <div class="vb-avatar"><img src="g/icon.png" alt="BGMI Player" /></div>
+          <div class="vb-info">
+            <span class="vb-label">Topping up for</span>
+            <strong id="vNick">—</strong>
+            <span class="vb-meta">ID <b id="vUid">—</b> · <span id="vLevel">—</span></span>
+          </div>
+          <span class="vb-badge">✓ Verified BGMI</span>
+        </div>
+        <a href="#" id="changeAccount" class="vb-change">Change account</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Store -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-head">
+        <h2>Official UC <span class="grad">Store</span></h2>
+        <p>Pick your Unknown Cash (UC) pack or Royale Pass — instant delivery to your verified Character ID.</p>
+      </div>
+
+      <div class="tabs" id="tabs" role="tablist"><!-- injected by JS --></div>
+
+      <div class="product-grid" id="productGrid"><!-- injected by JS --></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="index.html" class="brand brand-footer">
+          <img src="assets/bgmi_logo.png" alt="BGMI" class="brand-logo-bgmi" />
+          <span class="brand-text"><strong>Official UC Store</strong><small>Top Up Center</small></span>
+        </a>
+        <p class="muted">Genuine Battlegrounds Mobile India Unknown Cash (UC), delivered instantly to your Character ID.</p>
+      </div>
+      <div class="footer-cols">
+        <div><h4>Store</h4><a href="#products">UC Packs</a><a href="#products">Royale Pass</a><a href="#products">Prime Plus</a></div>
+        <div><h4>Help</h4><a href="index.html#faq">FAQ</a><a href="index.html#how">How it works</a><a href="index.html">Home</a></div>
+        <div><h4>Legal</h4><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Refunds</a></div>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> BGMITopUp. All rights reserved. Powered by KRAFTON Authorized Partners.</div>
+  </footer>
+
+  <!-- Payment Modal (deep-link payment options) -->
+  <div class="modal-overlay" id="payOverlay" hidden>
+    <div class="modal modal-pay" role="dialog" aria-modal="true">
+      <button class="modal-close" id="payClose" aria-label="Close">✕</button>
+      <div class="modal-body" id="payBody"><!-- injected by JS --></div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="js/data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@15.1.0/dist/twemoji.min.js" crossorigin="anonymous"></script>
+  <script src="js/app.js?v=bgmi-1"></script>
+</body>
+</html>

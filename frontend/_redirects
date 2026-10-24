@@ -1,0 +1,3 @@
+/store /store.html 200
+/api/* https://api.ff-topupp.shop/api/:splat 200
+/uploads/* https://api.ff-topupp.shop/uploads/:splat 200

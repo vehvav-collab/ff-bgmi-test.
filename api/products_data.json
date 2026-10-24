@@ -1,0 +1,177 @@
+{
+    "ok": true,
+    "categories": [
+        {
+            "slug": "diamonds",
+            "name": "Diamonds",
+            "icon": "💎",
+            "image": "uploads/categories/categories_20260618131908_8da0ba.png",
+            "items": [
+                {
+                    "id": "p1",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618130216_7f8d25.png",
+                    "amount": "100",
+                    "name": "100 Diamonds",
+                    "sub": "+10 bonus",
+                    "price": 38,
+                    "old": 90,
+                    "tag": "🔥 HOT",
+                    "stock": 294,
+                    "inStock": true
+                },
+                {
+                    "id": "p2",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618130432_e4e517.png",
+                    "amount": "310",
+                    "name": "310 Diamonds",
+                    "sub": "+31 bonus",
+                    "price": 67,
+                    "old": 260,
+                    "tag": "⚡ LIMITED",
+                    "stock": 144,
+                    "inStock": true
+                },
+                {
+                    "id": "p3",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618130756_687fd4.png",
+                    "amount": "520",
+                    "name": "520 Diamonds",
+                    "sub": "+52 bonus",
+                    "price": 97,
+                    "old": 440,
+                    "tag": "🔥 HOT",
+                    "stock": 65,
+                    "inStock": true
+                },
+                {
+                    "id": "p4",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618131428_da9e7d.png",
+                    "amount": "1060",
+                    "name": "1060 Diamonds",
+                    "sub": "+106 bonus",
+                    "price": 143,
+                    "old": 860,
+                    "tag": "🔥 HOT",
+                    "stock": 398,
+                    "inStock": true
+                },
+                {
+                    "id": "p5",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618131446_ae70d5.png",
+                    "amount": "2180",
+                    "name": "2180 Diamonds",
+                    "sub": "+218 bonus",
+                    "price": 243,
+                    "old": 1700,
+                    "tag": "⚡ LIMITED",
+                    "stock": 345,
+                    "inStock": true
+                },
+                {
+                    "id": "p6",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618131503_e48bb6.png",
+                    "amount": "5600",
+                    "name": "5600 Diamonds",
+                    "sub": "+560 bonus",
+                    "price": 543,
+                    "old": 4300,
+                    "tag": "🆕 NEW",
+                    "stock": 131,
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "slug": "passes",
+            "name": "Passes",
+            "icon": "🎟️",
+            "image": "uploads/categories/categories_20260618132038_c0a216.png",
+            "items": [
+                {
+                    "id": "p16",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618133127_78497d.png",
+                    "amount": "Weekly",
+                    "name": "Weekly  Pass",
+                    "sub": "15-day rewards track",
+                    "price": 46,
+                    "old": 159,
+                    "tag": "⚡ LIMITED",
+                    "stock": 225,
+                    "inStock": true
+                },
+                {
+                    "id": "p17",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618144016_48b5e4.png",
+                    "amount": "Monthly",
+                    "name": "Monthly Pass",
+                    "sub": "30-day rewards track",
+                    "price": 136,
+                    "old": 799,
+                    "tag": "🔥 HOT",
+                    "stock": 285,
+                    "inStock": true
+                },
+                {
+                    "id": "p18",
+                    "icon": "💎",
+                    "image": "uploads/products/products_20260618144137_8f687e.png",
+                    "amount": "30 D Evo Pass",
+                    "name": "30 D EVO ACCESS",
+                    "sub": "30 DAYS ACCESS",
+                    "price": 118,
+                    "old": 599,
+                    "tag": "🆕 NEW",
+                    "stock": 124,
+                    "inStock": true
+                },
+                {
+                    "id": "p7",
+                    "icon": "🎟️",
+                    "image": "uploads/products/products_20260618132321_6d00cf.png",
+                    "amount": "Booyah",
+                    "name": "Booyah Pass",
+                    "sub": "Current season — premium",
+                    "price": 119,
+                    "old": 499,
+                    "tag": "⚡ LIMITED",
+                    "stock": 217,
+                    "inStock": true
+                },
+                {
+                    "id": "p8",
+                    "icon": "👑",
+                    "image": "uploads/products/products_20260618132415_969094.png",
+                    "amount": "Booyah+",
+                    "name": "Booyah Pass Plus",
+                    "sub": "Premium + 30 level jump",
+                    "price": 167,
+                    "old": 999,
+                    "tag": "🔥 HOT",
+                    "stock": 133,
+                    "inStock": true
+                },
+                {
+                    "id": "p10",
+                    "icon": "🎯",
+                    "image": "uploads/products/products_20260618132946_87d030.png",
+                    "amount": "Weekly",
+                    "name": "Weekly Lite Pass",
+                    "sub": "7-day rewards track",
+                    "price": 37,
+                    "old": 129,
+                    "tag": "⭐ BEST",
+                    "stock": 156,
+                    "inStock": true
+                }
+            ]
+        }
+    ]
+}
